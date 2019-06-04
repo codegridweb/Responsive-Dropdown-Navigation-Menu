@@ -1,0 +1,126 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+      font-family: "Helvetica";
+}
+
+.hero-section {
+      width: 100%;
+      height: 100vh;
+}
+
+h1 {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-weight: lighter;
+      text-align: center;
+}
+
+.menu-btn {
+      position: fixed;
+      margin: 1em;
+      font-size: 24px;
+}
+
+.menu {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100vh;
+      background: #121212;
+      opacity: 0;
+}
+
+.close-menu {
+      position: fixed;
+      margin: 1em;
+      font-size: 24px;
+      color: #fff;
+      z-index: 1;
+}
+
+.nav {
+      position: absolute;
+      left: 21%;
+      margin-top: 8%;
+}
+
+.nav ul {
+      list-style: none;
+}
+
+.main-menu-item {
+      padding-top: 30px;
+}
+
+.main-menu-item a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: lighter;
+}
+
+.submenu-item a {
+      color: grey;
+}
+
+.submenu li {
+      margin: 20px 0;
+}
+
+a ion-icon {
+      position: relative;
+      font-size: 9px;
+      opacity: 0.4;
+}
+
+.submenu {
+      display: none;
+}
+
+.contact {
+      color: #fff;
+      position: absolute;
+      bottom: 70px;
+      right: 24%;
+}
+
+.contact p {
+      font-weight: lighter;
+      color: grey;
+      font-family: "Helvetica";
+}
+
+.media {
+      position: absolute;
+      bottom: 70px;
+      left: 22%;
+}
+
+.media ul {
+      list-style: none;
+}
+
+.media ul li {
+      display: inline-block;
+      color: grey;
+      font-weight: lighter;
+      padding-right: 16px;
+}
+
+@media(max-width: 768px) {
+      h1 {
+            font-size: 20px;
+      }
+
+      .nav {
+            margin-top: 20%;
+      }
+
+      .contact {
+            display: none;
+      }
+}
